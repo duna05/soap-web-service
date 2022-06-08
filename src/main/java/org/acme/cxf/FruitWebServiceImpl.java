@@ -13,8 +13,10 @@ public class FruitWebServiceImpl implements FruitWebService {
     private Set<Fruit> fruits = Collections.synchronizedSet(new HashSet<>());
 
     public FruitWebServiceImpl() {
-        fruits.add(new Fruit("Apple", "Winter fruit"));
-        fruits.add(new Fruit("Pineapple", "Tropical fruit"));
+        fruits.add(new Fruit("Manzana", "Winter fruit"));
+        fruits.add(new Fruit("Piña", "Tropical fruit"));
+        fruits.add(new Fruit("Pera", "Winter fruit"));
+        fruits.add(new Fruit("Cambur", "Tropical fruit"));
     }
 
     @Override
